@@ -1,7 +1,7 @@
 import random
 import string
 
-#flag = open("flag.txt", "r").readline()
+flag = open("flag.txt", "r").readline()
 dictionary = open("dictionary.txt", "r").read().splitlines()
 
 def caesar(txt, s):
