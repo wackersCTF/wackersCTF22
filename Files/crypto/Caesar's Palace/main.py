@@ -13,7 +13,7 @@ def caesar(txt, s):
 
 print("\nWelcome to Caesar's Palace!")
 
-for n in range(200):
+for n in range(500):
 	word = random.choice(dictionary).lower()
 	caesared_word = caesar(word, random.choice(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']))
 	print(f" Encrypted word: {caesared_word}")
