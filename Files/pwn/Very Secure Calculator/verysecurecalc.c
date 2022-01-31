@@ -51,7 +51,6 @@ int main(int argc, char **argv)
 
     else  {
         if(fp) {
-            printf("calling function pointer, jumping to 0x%08x\n", fp);
             fp();
             exit(-1);
         }
